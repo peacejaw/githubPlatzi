@@ -1,39 +1,50 @@
 body 
 {
-    color: blue;
+    background:white;
+    color: black;
     text-align: center;
-    font-family: "Times New Romal" ;
+    font-family: "Arial" ;
     font-size: 16px;
-    margin: 0;
+    margin: 1;
     padding: 0;
 }
 #cabecera
 {
-    background: black;
-    color: white;
-    box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.5);
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0px 2px 30px 0px rgba(255, 255, 255, 0.5);
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 3em 2em;
     font-weight: bold;
-    
+    text-align: left;
+    border: 0.5px solid black;
+}
+#cabecera #logo
+{
+    width: 40px;
+    vertical-align: middle; 
 }
 #cabecera #tagline
 {
     padding: 0,0,0,1em;
     font-weight: normal;
-    font-size: 0.8em;
+    font-size: 2em;
 }
 #container
 {
     width: 70%;
     padding: 1em;
-    text-align: left;
-    border: 1px solid #ddd;
+    text-align: center;
     margin: 0 auto;
 
 }
 #container h1
 {
-    font-size: 20px;
+    font-size: 30px;
 
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
